@@ -30,6 +30,7 @@ Start the server with
 mvn spring-boot:run
 ````
 at this stage localhost:8080 should just return Hello World!
+
 crtr-c to shutdown the server
 
 # Notes:

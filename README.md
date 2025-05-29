@@ -1,4 +1,5 @@
-[Trello Board](https://trello.com/b/R3B5d5aq/expense-tracker) \n
+[Trello Board](https://trello.com/b/R3B5d5aq/expense-tracker)
+
 [Figma design](https://www.figma.com/design/TG3TtWgQ5jrU89tGYpO4Ny/Expense-Tracker-UI?node-id=0-1&p=f&t=46IsdarH9D1451w1-0)
 
 # Installation

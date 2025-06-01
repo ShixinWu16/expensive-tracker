@@ -13,5 +13,13 @@ services:
       dockerfile: Dockerfile
     ports:
       - '5173:5173'
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - WATCHPACK_POLLING=true
+      - CHOKIDAR_USEPOLLING=true
+      - WDS_SOCKET_HOST=localhost
+      - WDS_SOCKET_PORT=5173
     depends_on:
       - backend

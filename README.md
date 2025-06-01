@@ -2,7 +2,22 @@
 
 [Figma design](https://www.figma.com/design/TG3TtWgQ5jrU89tGYpO4Ny/Expense-Tracker-UI?node-id=0-1&p=f&t=46IsdarH9D1451w1-0)
 
-# Installation
+# Run the app Docker [Reccomended]
+
+```bash
+docker-compose build --no-cache
+docker-compose up -d
+```
+
+# Run Reactjs [Location in frontend]
+
+```bash
+npm run build
+
+npm run dev -- --host "0.0.0.0" --port 5173
+```
+
+# Java Spring Boot Installation [Location in backend]
 ````bash
 sudo apt update
 sudo apt update
